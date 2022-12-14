@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/all.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <!----Start quiz button-->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-------info Box-->
+    <div class="info_box">
+        <div class="info_tittle">
+            <span>Some Rules of this Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you se elect an option once the time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answer.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Qiuz</button>
+            <button class="restart">Continue</button>
+        </div>
+
+    </div>
+
+    <!---Quiz Box--------->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="timer_text">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+        </header>
+
+        <!-------Quiz Questions-->
+        <section>
+            <div class="que_text">
+                <!-- <span>Which language runs in a web browser?</span> -->
+            </div>
+            <div class="option_list">
+                <!-- <div class="option">
+                    <span>Javascript</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>C</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+
+                <div class="option">
+                    <span>Java</span>
+                </div>
+                <div class="option">
+                    <span>SQL</span>
+                </div> -->
+            </div>
+        </section>
+
+        <!-------Qiuz footer-->
+        <footer>
+            <div class="total_que">
+                <!-- <span> <p>2</p> of <p>5</p> <p>Questions</p> </span> -->
+            </div>
+
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!---------Result------->
+    <div class="result_box">
+        <div class="icons">
+            <i class="fas fa-crown"></i>
+        </div>
+
+        <div class="complete_text">You've completed Quiz ! </div>
+        <div class="score_text">
+            <span>and sorry, You got only  <p> 2</p> out of <p>5</p> </span>
+        </div>
+        <div class="buttons">
+            <button class="restart"> Replay Quiz</button>
+            <button class="quit"> Quit Quiz</button>
+        </div>
+    </div>
+
+
+    <script src="/script.js"></script>
+
+    <script src="/questions.js"></script>
+</body>
+</html>
